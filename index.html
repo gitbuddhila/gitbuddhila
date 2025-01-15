@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-gray-800 fixed w-full z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center py-4">
+            <h1 class="text-2xl font-bold">My Portfolio</h1>
+            <ul class="flex space-x-6 text-gray-300 ml-[-10px]">
+                <li><a href="#about" class="hover:text-white">About</a></li>
+                <li><a href="#projects" class="hover:text-white">Projects</a></li>
+                <li><a href="#contact" class="hover:text-white">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600">
+        <div class="text-center">
+            <h1 class="text-5xl font-extrabold">Hello, I'm Buddhila</h1>
+            <p class="text-xl mt-4">Undergraduate Software Engineer | Full Stack Developer</p>
+            <a href="#projects" class="mt-6 inline-block bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300">
+                View My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto py-20">
+        <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+        <p class="text-lg text-gray-400 text-center">
+            I am an enthusiastic undergraduate software engineer with a passion for solving problems and building impactful projects.
+        </p>
+        <div class="mt-10 flex justify-center space-x-6">
+            <div class="text-center">
+                <h3 class="text-xl font-bold">Skills</h3>
+                <ul class="mt-4 space-y-2 text-gray-300">
+                    <li>JavaScript / HTML / CSS / C++</li>
+                    <li>React / Node.js</li>
+                    <li>Python / Java</li>
+                    <li>PHP / Kotlin</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-800 py-20">
+        <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card -->
+            <div class="bg-gray-700 rounded-lg p-4">
+                <h3 class="text-xl font-bold">Project Name</h3>
+                <p class="mt-2 text-gray-300">Description of the project goes here. Highlight key technologies.</p>
+                <a href="#" class="mt-4 inline-block text-indigo-400 hover:underline">View Details</a>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-20">
+        <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+        <form action="#" class="max-w-lg mx-auto bg-gray-800 p-6 rounded-lg">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-400">Name</label>
+                <input type="text" id="name" class="w-full p-2 rounded bg-gray-900 border border-gray-700">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-400">Email</label>
+                <input type="email" id="email" class="w-full p-2 rounded bg-gray-900 border border-gray-700">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-400">Message</label>
+                <textarea id="message" rows="4" class="w-full p-2 rounded bg-gray-900 border border-gray-700"></textarea>
+            </div>
+            <button type="submit" class="bg-indigo-600 hover:bg-indigo-800 text-white px-6 py-2 rounded-lg w-full">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+   <!-- Footer -->
+<footer class="bg-gray-800 py-8 text-gray-400">
+    <div class="container mx-auto text-center space-y-6">
+        <!-- About Me Section -->
+        <div>
+            <h3 class="text-xl font-bold text-white">About Me</h3>
+            <p class="mt-2 text-gray-300">
+                I’m an undergraduate software engineer passionate about building user-friendly applications and solving real-world problems with technology. Let’s connect and collaborate!
+            </p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="flex justify-center space-x-6">
+            <!-- Social Button: GitHub -->
+            <a href="https://github.com/yourusername" target="_blank" class="text-gray-300 hover:text-white">
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.84 10.9.57.11.78-.25.78-.55v-2.1c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.18 1.77 1.18 1.03 1.76 2.69 1.25 3.35.95.1-.74.4-1.26.72-1.55-2.56-.29-5.25-1.28-5.25-5.73 0-1.26.44-2.3 1.16-3.12-.12-.29-.5-1.48.1-3.08 0 0 .94-.3 3.08 1.16a10.72 10.72 0 012.8-.38 10.68 10.68 0 012.8.38c2.14-1.46 3.08-1.16 3.08-1.16.6 1.6.22 2.8.1 3.08.72.82 1.16 1.86 1.16 3.12 0 4.45-2.7 5.44-5.28 5.73.42.37.78 1.1.78 2.23v3.3c0 .31.2.67.8.56 4.54-1.54 7.8-5.84 7.8-10.92C23.5 5.73 18.27.5 12 .5z"/>
+                </svg>
+            </a>
+            <!-- Social Button: LinkedIn -->
+            <a href="https://linkedin.com/in/buddhilaherath" target="_blank" class="text-gray-300 hover:text-white">
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.45 20.45h-3.63v-5.64c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.48-2.18 3v5.72H9.1V9.5h3.48v1.5h.05c.48-.92 1.65-1.88 3.41-1.88 3.64 0 4.31 2.4 4.31 5.52v6.81zM5.34 8h3.61V20.45H5.34zM7.14 3.38a2.09 2.09 0 110 4.18 2.09 2.09 0 010-4.18zm16.32 5.12C23.46 4.25 19.05 0 12 0 4.95 0 .54 4.25.54 8.5c0 4.36 4.51 8.62 11.46 8.62 7.05 0 11.46-4.26 11.46-8.62z"/>
+                </svg>
+            </a>
+           
+            <!-- Social Button: Facebook -->
+            <a href="https://facebook.com/buddhilaherath" target="_blank" class="text-gray-300 hover:text-white">
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M22 12a10 10 0 10-11 9.95v-7.03h-2.2V12h2.2v-1.6c0-2.18 1.3-3.38 3.3-3.38.96 0 1.97.18 1.97.18v2.16h-1.1c-1.08 0-1.42.67-1.42 1.35V12h2.4l-.38 2.92h-2.02v7.03A10 10 0 0022 12z"/>
+                </svg>
+            </a>
+            <!-- Social Button: Instagram -->
+            <a href="https://www.instagram.com/buddhila_lakshan?igsh=MTkzdm9lZng5ZW1nYQ==" target="_blank" class="text-gray-300 hover:text-white">
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M7.75 2h8.5A5.25 5.25 0 0121.5 7.25v8.5A5.25 5.25 0 0116.25 21H7.75A5.25 5.25 0 012.5 15.75V7.25A5.25 5.25 0 017.75 2zm0 1.5a3.75 3.75 0 00-3.75 3.75v8.5a3.75 3.75 0 003.75 3.75h8.5a3.75 3.75 0 003.75-3.75V7.25A3.75 3.75 0 0016.25 3.5H7.75zm9.5 2.75a1.125 1.125 0 110 2.25 1.125 1.125 0 010-2.25zM12 8.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7zm0 1.5a2 2 0 100 4 2 2 0 000-4z"/>
+                </svg>
+            </a>
+            <!-- Social Button: WhatsApp -->
+            <a href="https://wa.me/+94704561240" target="_blank" class="text-gray-300 hover:text-white">
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.52 3.48A11.72 11.72 0 0012 1.2C6.39 1.2 1.8 5.79 1.8 11.4a11.66 11.66 0 001.62 5.97L1 22.2l4.97-1.62a11.53 11.53 0 005.63 1.42c5.6 0 10.2-4.59 10.2-10.2 0-2.74-1.07-5.34-3.03-7.29zM12 19.8a9.26 9.26 0 01-4.91-1.39l-.36-.21-2.91.94.95-2.9-.24-.38a9.24 9.24 0 01-1.39-4.91 9.27 9.27 0 0115.83-6.55 9.24 9.24 0 010 13.1A9.25 9.25 0 0112 19.8zm5.68-6.63c-.31-.16-1.85-.91-2.14-1-.29-.08-.5-.16-.71.16-.2.31-.82 1-.1 1.8.68.75 1.19 1.05 1.36 1.14.2.08.31.12.44-.04.14-.16.49-.57.63-.77.12-.16.1-.29 0-.45-.1-.16-.73-.31-1.01-.48z"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="mt-4">© 2025 Buddhila Herath. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
