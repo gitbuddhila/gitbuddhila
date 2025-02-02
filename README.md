@@ -6,8 +6,8 @@
 💻 Interests: Building innovative web & mobile applications, contributing to open-source projects, and exploring AI-driven solutions.<br><br>
 
 📫 Let’s Connect!<br><br>
-📧 Email: buddhilalakshan12@gmail.com
-🔗 LinkedIn: **https://www.linkedin.com/in/buddhilaherath/**<br>
+📧 Email: **buddhilalakshan12@gmail.com**
+🔗 LinkedIn: **https://www.linkedin.com/in/buddhilaherath/** <br>
 📝 Dev Blog: **https://dev.to/gitbuddhi**
 <br><br>
 <br><img alt="My Stats" align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=gitbuddhila"/>
