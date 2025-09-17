@@ -12,5 +12,3 @@ JavaScript (React, Node.js), Java, Python, C++, PHP | Mobile Dev (Kotlin, Androi
 🔗 LinkedIn: **https://www.linkedin.com/in/buddhilaherath/** <br>
 📝 Dev Blog: **https://dev.to/gitbuddhi**
 <br><br>
-<br><img alt="My Stats" align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=gitbuddhila"/>
-<img alt="Top Languages" align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitbuddhila&layout=compact"/>
