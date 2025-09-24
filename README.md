@@ -1,14 +1,29 @@
-# I’m Buddhila Herath 👋
+# 👋 Hi, I’m Buddhila Herath  
 
-🚀 Aspiring Undergraduate Software Engineer | Passionate About Software Development
-<br>
-<br>
-💡 Tech Stack:<br>
-JavaScript (React, Node.js), Java, Python, C++, PHP | Mobile Dev (Kotlin, Android Studio) | Databases (MySQL, MongoDB)<br> Scalable web applications (MERN stack, Java)<br>
+🚀 **Aspiring Undergraduate Software Engineer** | Passionate About Software Development  
 
-💻 Interests:<br> Building innovative web & mobile applications, contributing to open-source projects, and exploring AI-driven solutions.<br><br>
-📫 Let’s Connect!<br>
-📧 Email: **buddhilalakshan12@gmail.com**
-🔗 LinkedIn: **https://www.linkedin.com/in/buddhilaherath/** <br>
-📝 Dev Blog: **https://dev.to/gitbuddhi**
-<br><br>
+---
+
+## 💡 Tech Stack
+- **Languages:** JavaScript,TypeScript (React, MERN, Node.js), Java, SpringBoot, C++, PHP  
+- **Mobile Development:** Kotlin, react Native , Android Studio  
+- **Databases:** MySQL, MongoDB  , Sql Workbench
+- **Frameworks & Tools:** MERN Stack, Spring Boot, Laravel  
+- **Focus Areas:** Scalable Web Applications, Mobile Apps, AI-driven Solutions  
+
+---
+
+## 💻 Interests
+- Building innovative **web & mobile applications**  
+- Contributing to **open-source projects**  
+- Exploring **AI and emerging technologies**  
+
+---
+
+## 📫 Let’s Connect
+- 📧 **Email:** [buddhilalakshan12@gmail.com](mailto:buddhilalakshan12@gmail.com)  
+- 🔗 **LinkedIn:** [linkedin.com/in/buddhilaherath](https://www.linkedin.com/in/buddhilaherath/)  
+- 📝 **Dev Blog:** [dev.to/gitbuddhi](https://dev.to/gitbuddhi)  
+
+---
+⭐️ *“Code. Build. Innovate. Learn. Repeat.”*  
